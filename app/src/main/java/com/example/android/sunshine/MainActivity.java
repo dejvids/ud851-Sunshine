@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
 
         String[] data = new String[]
         {
-                "Sunny ",
-                "Snowy ",
-                "Foggy ",
-                "Rainy "
+                "Sunny \n",
+                "Snowy \n",
+                "Foggy \n",
+                "Rainy \n"
         };
 
         for (String item : data) {
