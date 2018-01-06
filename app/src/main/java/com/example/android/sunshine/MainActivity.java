@@ -31,14 +31,14 @@ public class MainActivity extends AppCompatActivity {
 
         String[] data = new String[]
         {
-                "Sunny \n",
-                "Snowy \n",
-                "Foggy \n",
-                "Rainy \n"
+                "Sunny",
+                "Snowy",
+                "Foggy",
+                "Rainy"
         };
 
         for (String item : data) {
-            weatherTextView.append(item);
+            weatherTextView.append(item +"\n");
 
         }
 
